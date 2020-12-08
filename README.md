@@ -6,7 +6,7 @@ Optimized lightweight scrollable carousel initiated by pure CSS.
 * Touchscreen supported: scroll works by sliding left/right on screen.
 
 Example
-```
+```html
 <link rel="stylesheet" href="optipic-carousel.min.css">
 <script src="optipic-carousel.min.js"></script>
 
