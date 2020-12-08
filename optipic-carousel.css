@@ -1,0 +1,44 @@
+.optipic-carousel {
+    position: relative;
+}
+.optipic-carousel .optipic-carousel-ctrl {
+    position: absolute;
+    background: #f3f3f3;
+    cursor: pointer;
+    z-index: 10;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    color: #b3b3b3;
+}
+.optipic-carousel .optipic-carousel-ctrl.prev {
+    left: 0;
+}
+.optipic-carousel .optipic-carousel-ctrl.next {
+    right: 0;
+}
+
+.optipic-carousel .optipic-carousel-scrollable-line { 
+    display: -ms-flexbox !important;
+    display: flex !important;
+    
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+.optipic-carousel .optipic-carousel-scrollable-line {
+    &::-webkit-scrollbar {
+        width: 0 !important; 
+        display: none;
+        color: fff;
+        height: 0;
+    }
+}
+.optipic-carousel .optipic-carousel-scrollable-line::-webkit-scrollbar { 
+    width: 0 !important; 
+    display: none;
+    color: fff;
+    height: 0;
+}
+.optipic-carousel .optipic-carousel-scrollable-line { overflow: -moz-scrollbars-none; }
