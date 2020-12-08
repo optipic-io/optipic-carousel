@@ -17,16 +17,16 @@ Example
         </svg>
     </div>
     <div class="optipic-carousel-scrollable-line">
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
-        <div class="optipic-carousel-element"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
+        <div class="optipic-carousel-item"></div>
     </div>
     <div class="optipic-carousel-ctrl next">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
